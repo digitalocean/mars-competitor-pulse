@@ -1,6 +1,6 @@
 {
   "dependencies": [".", "langchain_openai"],
   "graphs": {
-    "competitor_pulse": "./src/competitor_pulse/graph.py:graph"
+    "agent": "./src/competitor_pulse/graph.py:graph"
   }
 }

@@ -67,7 +67,7 @@ Will not: contact competitors, create accounts, or scrape behind login.
 
 1. Create or open a MARS agent environment that accepts a LangGraph Agent Server app.
 2. Point it at this GitHub repo; pin commit SHA `{sha}`.
-3. Ensure root `langgraph.json` is detected (graph export via module-level `.compile(name="CompetitorPulse")`).
+3. Ensure root `langgraph.json` is detected; graph key must be `agent` (MARS harness invoke target). Graph export uses module-level `.compile(name="CompetitorPulse")`.
 4. Set harness inference env (names below). Do not hardcode keys in the repo.
 5. Deploy / start the agent server; run one smoke invoke (see Smoke).
 
