@@ -73,6 +73,8 @@ Will not: contact competitors, create accounts, or scrape behind login.
 
 See `mars.spec.example.yaml` for `FRAMEWORK_REPO` / `FRAMEWORK_REPO_SHA` placeholders.
 
+**Troubleshooting:** If the agent server fails with `No module named 'competitor_pulse'`, ensure root `requirements.txt` includes `-e .` so the local package is installed (MARS prefers `requirements.txt` over `pyproject.toml` when both exist).
+
 **Harness inference env (required)**
 
 | Variable | Purpose |
@@ -128,7 +130,6 @@ ALLOW_NET=0 python scripts/smoke_invoke.py
 ```bash
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-pip install -e .
 export ALLOW_NET=0
 # optional live LLM / HTTP:
 # export HARNESS_INFERENCE_BASE_URL=...
