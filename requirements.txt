@@ -3,3 +3,4 @@ langchain-openai>=0.2
 pytest>=8.0
 langgraph-checkpoint>=2.0
 httpx>=0.27
+-e .
