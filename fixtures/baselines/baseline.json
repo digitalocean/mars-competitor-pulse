@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "competitor": "Acme",
+      "module": "site",
+      "url": "https://example.com/acme/",
+      "content_hash": "b9fdfde458a09a15221b31dccfe5d550c15a3f57f526bc46e89c5e755d0003b8",
+      "text_excerpt": "<html><head><title>Acme Cloud</title></head>\n<body>\n<h1>Acme Cloud Platform</h1>\n<p>Enterprise AI orchestration.</p>\n<p class=\"price-teaser\">Plans from $79/mo</p>\n</body></html>",
+      "snapshot_file": "acme_site.html"
+    },
+    {
+      "competitor": "Acme",
+      "module": "pricing",
+      "url": "https://example.com/acme/pricing",
+      "content_hash": "db3a17938d437c0067b099bbdb2ffdc21541ac59eeffbdc287255ffafd5cc82e",
+      "text_excerpt": "<html><head><title>Acme Pricing</title></head>\n<body>\n<h1>Pricing</h1>\n<ul>\n  <li>Starter: $79/mo</li>\n  <li>Pro: $249/mo</li>\n  <li>Enterprise: custom</li>\n</ul>\n</body></html>",
+      "snapshot_file": "acme_pricing.html"
+    },
+    {
+      "competitor": "Acme",
+      "module": "changelog",
+      "url": "https://example.com/acme/changelog",
+      "content_hash": "9c6192954708fbbcf1c784da6461b8fb7e9d12c6efa50f886754a5e33f414058",
+      "text_excerpt": "2026-08-01: Beta multi-region agents.\n2026-07-15: Minor docs refresh.",
+      "snapshot_file": "acme_changelog.txt"
+    },
+    {
+      "competitor": "BetaCo",
+      "module": "site",
+      "url": "https://example.com/betaco/",
+      "content_hash": "b5ccf7627e21b26fb9fce81523561b40b67d83778d09f6d2405eb36bee0a8835",
+      "text_excerpt": "<html><head><title>BetaCo</title></head>\n<body>\n<h1>BetaCo Research Suite</h1>\n<p>Same product positioning as last pulse \u2014 no material change.</p>\n</body></html>",
+      "snapshot_file": "betaco_site.html"
+    },
+    {
+      "competitor": "BetaCo",
+      "module": "careers",
+      "url": "https://example.com/betaco/careers",
+      "content_hash": "c0bdf71fe17403d7a6449125fb60a753547e133721e1e877d9943b57eb94b3c6",
+      "text_excerpt": "<html><head><title>BetaCo Careers</title></head>\n<body>\n<h1>Careers</h1>\n<p>Hiring: 2 platform engineers (unchanged).</p>\n</body></html>",
+      "snapshot_file": "betaco_careers.html"
+    }
+  ]
+}

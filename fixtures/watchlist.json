@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Acme",
+    "urls": {
+      "site": "https://example.com/acme/",
+      "pricing": "https://example.com/acme/pricing",
+      "changelog": "https://example.com/acme/changelog"
+    }
+  },
+  {
+    "name": "BetaCo",
+    "urls": {
+      "site": "https://example.com/betaco/",
+      "careers": "https://example.com/betaco/careers"
+    }
+  }
+]
