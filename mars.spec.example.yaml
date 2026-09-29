@@ -5,7 +5,6 @@ name: competitor-pulse
 agent: langgraph
 template: langgraph
 size: mv-2vcpu-4gb
-persistent_workspace: true
 
 env:
   FRAMEWORK_REPO: "https://github.com/<owner>/mars-competitor-pulse.git"
